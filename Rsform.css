@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Bungee+Inline&family=Chicle&family=Holtwood+One+SC&family=Karla:wght@500&family=Luckiest+Guy&family=Nosifer&family=Notable&family=Ultra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Bungee+Inline&family=Chicle&family=Holtwood+One+SC&family=Karla:wght@500&family=Luckiest+Guy&family=Nosifer&family=Notable&family=Ultra&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Contanier{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    color: white;
+    padding: 0 20px;
+    background: linear-gradient(#fa709a,#fee140);
+
+}
+.firstform{
+    width: 600px;
+    height: auto;
+    padding: 50px;
+
+}
+.firstformtitle{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Luckiest Guy', cursive;
+    color:#1d1b1c;
+}
+
+
+.firstform h1{
+    width: 550px;
+    font-size: 55px;
+    font-weight: bold;
+    font-family: 'Archivo Black', sans-serif;
+    /* line-height: 45px; */
+}
+
+.firstform h3{
+    font-size: 20px;
+    padding: 10px 0;
+    font-family: 'Archivo ', sans-serif;
+
+}
+.firstform h4{
+    padding: 15px 0;
+    font-family: 'Archivo ', sans-serif;
+    color: rgb(39, 33, 33);
+
+}
+.socialicon{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.socialicon a{
+    text-decoration: none;
+    padding: 0 10px;
+    font-size: 30px;
+    color: rgb(39, 33, 33);
+}
+.icon1:hover{color: coral;}
+.icon2:hover{color: rgb(69, 67, 236);}
+.icon3:hover{color: rgb(240, 70, 9);}
+.icon4:hover{color: coral;}
+.icon5:hover{color: rgb(10, 233, 103);}
+
+
+.sociallink{
+    margin: 10px 0;
+}
+.sociallink a{
+  padding: 0 3px;
+  text-decoration: none;
+  color: white;
+  transition: all 0.4s ease-in-out;
+}
+.sociallink a:hover{
+    color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.secondform{
+    width: 600px;
+    height: auto;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    /* line-height: 40px; */
+
+}
+.formtitle{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+
+}
+input{
+   width: 500px;
+    height: 70px;
+    font-size: 20px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    outline: none;
+    border-bottom: 2px solid rgb(41, 39, 39);
+    color: white;
+    padding-top: 15px;
+    background: transparent;
+    
+
+}
+.checkform{
+  width: 500px;
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+  /* justify-content: center; */
+}
+#check{ width: 20px; }
+span{ margin-left: 20px auto;}
+.formlines p{
+    margin: 20px 0px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+
+}
+.formlines h5{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    margin-top: 20px;
+    color: rgb(39, 33, 33);
+
+}
+button{
+    width: 250px;
+    height: 50px;
+    margin: 50px 0 ;
+    margin-right: auto;
+    border-radius: 100px;
+    border: 2px solid rgb(129, 125, 91);
+    color:#f88f2c;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.5s ease-out;
+}
+button:hover{
+    background: darkslategray;
+}
+@media (max-width:600px) {
+    .firstform{
+        width: 500px;
+    }
+    .firstform h1{
+        width: 400px;
+    }
+
+    .secondform{
+        width: 500px;
+    }
+    .formtitle{
+        
+    }
+    input{
+        width: 400px;
+    }
+    .checkform{
+        width: 400px;
+    }
+
+}
+
+
+
+.backbtn{
+    width: 40px;
+    height: 100px;
+    font-size: 20px;
+    position: absolute;
+    position: fixed;
+    top: 0px;
+    left: 20px;
+    z-index: 100000;
+    border-radius: 100px;
+    border: 2px solid orangered;
+    background: transparent;
+    font-size: 20px;
+    font-weight: 500;
+}
+.backbtn a{
+    text-decoration: none;
+    color: black;
+}
+.backbtn:hover{
+    background: orangered;
+}
